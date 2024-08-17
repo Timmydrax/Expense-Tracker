@@ -1,0 +1,73 @@
+body {
+  background-color: #f2f2f2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+}
+
+.expense-tracker {
+  max-width: 500px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", "Geneva", "Verdana", "sans-serif";
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: beige;
+}
+
+.expense-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-expense-btn {
+  padding: 10px 30px;
+  background-color: #3374a9;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-expense-btn:hover {
+  background-color: #1f5e92;
+}
+
+.total-expenses {
+  text-align: right;
+}
+
+.expense-list {
+  margin-bottom: 20px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.expense-item-description, .expense-item-amount {
+ font-weight: bold;
+}
+
+.delete-expense-btn{
+    background-color: #f44336;
+    border: none;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
